@@ -1,0 +1,21 @@
+.code-container {
+  position: relative;
+}
+
+.line-numbers {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2em;
+  text-align: center;
+  pointer-events: none;
+}
+
+.code-textarea {
+  padding-left: 2.5em;
+}
+
+.selected-line {
+  background-color: #f0f0f0;
+}
